@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^20.14.10",
+    "dotenv": "^16.4.5",
     "grammy": "^1.26.1"
   }
 }

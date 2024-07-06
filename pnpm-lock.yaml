@@ -5,6 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@types/node':
+    specifier: ^20.14.10
+    version: 20.14.10
+  dotenv:
+    specifier: ^16.4.5
+    version: 16.4.5
   grammy:
     specifier: ^1.26.1
     version: 1.26.1
@@ -13,6 +19,12 @@ packages:
 
   /@grammyjs/types@3.10.0:
     resolution: {integrity: sha512-TDWn0bjTzEqG5coxnbSOCOEEkeQ3RCmf6XgJ3TBBMbLmb9eyQM1Evr8XzqLwXr9IcQvHMVeQ/lS86lkvYeADvw==}
+    dev: false
+
+  /@types/node@20.14.10:
+    resolution: {integrity: sha512-MdiXf+nDuMvY0gJKxyfZ7/6UFsETO7mGKF54MVD/ekJS6HdFtpZFBgrh6Pseu64XTb2MLyFPlbW6hj8HYRQNOQ==}
+    dependencies:
+      undici-types: 5.26.5
     dev: false
 
   /abort-controller@3.0.0:
@@ -32,6 +44,11 @@ packages:
         optional: true
     dependencies:
       ms: 2.1.2
+    dev: false
+
+  /dotenv@16.4.5:
+    resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
+    engines: {node: '>=12'}
     dev: false
 
   /event-target-shim@5.0.1:
@@ -70,6 +87,10 @@ packages:
 
   /tr46@0.0.3:
     resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
+    dev: false
+
+  /undici-types@5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
     dev: false
 
   /webidl-conversions@3.0.1:
